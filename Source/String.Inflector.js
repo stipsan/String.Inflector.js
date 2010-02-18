@@ -149,7 +149,6 @@ String.Inflector = new Class({
 String.implement({
 	pluralize: function(options) {
 		inflector = new String.Inflector(options);
-		console.log(inflector)
 		return inflector.pluralize(this);
 	},
 	
