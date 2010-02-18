@@ -16,6 +16,8 @@ requires:
 
 provides: [String.Inflector]
 
+notice: This script were originally written in MooTools 1.11; so it's not 100%, but it'll get there :)
+
 ...
 */
 String.Inflector = new Class({

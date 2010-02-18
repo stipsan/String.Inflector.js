@@ -3,11 +3,23 @@ String.Inflector
 
 Extends the String native with inflector methods, like pluralize and singularize.
 
-Notice
-------
-This script were originally written in MooTools 1.11; so it's not 100%, but it'll get there :)
+![Screenshot](http://s3.amazonaws.com/ember/ZVuVXbBSsnE4X6UJb8BRmtZoN1aq1knT_o.png)
 
 How to Use
 ----------
 
-Coming soon
+Pluralize
+
+	#JS
+	"cookie".pluralize(); // "cookies"
+	
+Singularize
+
+	#JS
+	"databases".singularize(); // "database"
+	
+isSingular and isPlural
+
+	#JS
+	"tools".isSingular(); // false
+	"tools".isPlural();   // true
