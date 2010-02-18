@@ -10,9 +10,4 @@ This script were originally written in MooTools 1.11; so it's not 100%, but it'l
 How to Use
 ----------
 
-String.Slugify extends the native String object, so it works on any ordinary string.
-
-	#JS
-	"slugify  ME    n%ø#w".slugify()
-
-Returns "slugify-me-now"
+Coming soon
